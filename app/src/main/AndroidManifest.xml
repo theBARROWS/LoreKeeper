@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoreKeeper"
+        tools:targetApi="31">
+        <activity
+            android:name=".CampaignCharacterSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JournalEntryEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CharacterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampaignCharacterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JournalEntryAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampaignEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CharacterAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CampaignAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoreKeeperAbout"
+            android:exported="false" />
+        <activity
+            android:name=".CampaignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoreKeeperActivity"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="false"
+            android:label="start" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
